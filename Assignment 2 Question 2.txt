@@ -1,0 +1,10 @@
+#Assignment 2
+#By Kamalpreet Singh Bachhal SID 21103029
+
+#Question 2
+Name="Kamalpreet Singh Bachhal"
+SID=21103029
+Department="CSE"
+CGPA=9.9
+string="Hey, %s Here!\nMy SID is %d\nMy Depatment is %s and my CGPA is %f"%(Name,SID,Department,CGPA)
+print(string)

@@ -1,0 +1,13 @@
+#Assignment 2
+#By Kamalpreet Singh Bachhal SID 21103029
+
+#Question 3
+a=56
+b=10
+print("The value of a&b is",a&b)
+print("The value of a|b is",a|b)
+print("The value of a^b is",a^b)
+print("The value of a after left shift by 2 bits=",a<<2)
+print("The value of b after left shift by 2 bits=",b<<2)
+print("The value of a after right shift by 2 bits=",a>>2)
+print("The value of b after right shift by 4 bits=",b>>4)

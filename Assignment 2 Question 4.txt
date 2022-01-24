@@ -1,0 +1,17 @@
+#Assignment 2
+#By Kamalpreet Singh Bachhal SID 21103029
+
+#Question 4
+num1=float(input("Enter 1st number="))
+num2=float(input("Enter 2nd number="))
+num3=float(input("Enter 3rd number="))
+if num2>num1:
+   if num2>num3:
+     print("The greatest number given as input by the user is=",num2)
+   else:
+     print("The greatest number given as input by the user is=",num3)
+else:
+   if num1>num3:
+     print("The greatest number given as input by the user is=",num1)
+   else:
+     print("The greatest number given as input by the user is=",num3)

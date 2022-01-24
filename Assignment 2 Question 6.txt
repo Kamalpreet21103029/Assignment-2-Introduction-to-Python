@@ -1,0 +1,15 @@
+#Assignment 2
+#By Kamalpreet Singh Bachhal SID 21103029
+
+#Question 6
+len1=float(input("Enter length of 1st side="))
+len2=float(input("Enter length of 2nd side="))
+len3=float(input("Enter length of 3rd side="))
+if len1<len2+len3:
+   if len2<len1+len3:
+      if len3<len1+len2:
+        print("Yes,A Triangle can be formed from the given input lengths")
+else:
+  print("No,A Triangle cannot be formed from the given input lengths")
+
+

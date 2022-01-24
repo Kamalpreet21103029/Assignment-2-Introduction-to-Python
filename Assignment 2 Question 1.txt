@@ -1,0 +1,23 @@
+#Assignment 2
+#By Kamalpreet Singh Bachhal SID 21103029
+
+#Question 1
+#Part 1
+string="Python is a case sensitive language"
+a=len(string)
+print("Length of the string is=",a)
+#Part 2
+b=string[::-1]
+print("The reversed string is=",b)
+#Part 3
+c=string[12:36]
+print(c)
+#Part 4
+d=string.replace("a case sensitive language","object oriented")
+print(d)
+#Part 5
+e=string.find("a")
+print("Index of the substring a is",e)
+#Part 6
+f=string.replace(" ","")
+print("The string without spaces is=",f)
